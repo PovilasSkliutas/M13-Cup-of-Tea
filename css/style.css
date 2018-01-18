@@ -1,0 +1,146 @@
+/*GLOBAL STYLES*/
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+}
+.container {
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+/*HEADER STYLES*/
+header {
+    background-image: url("../img/bg.jpg");
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 0 0;
+    margin: 0 auto;
+    list-style: none;
+}
+/*NAVIGATION STYLES*/
+.navigation {
+    padding-bottom: 20px;
+}
+.navigation a {
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+/*MAIN CONTENT STYLES*/
+main {
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/*vignete styles*/
+.vignete {
+    background-color: white;
+    margin-bottom: 30px;
+    border: 1px solid #e8e8e8;
+}
+.vignete img {
+    max-width: 100%;
+    padding: 10px;
+}
+/*tea-asorti styles*/
+.tea-asorti {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    border: 1px solid #e8e8e8;
+}
+
+.tea-asorti p {
+    font-family: 'Amaranth';
+    font-weight: normal;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 10px;
+}
+/*product-tea styles*/
+.product {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.product h4 {
+    margin: 0;
+    color: white;
+    text-align: left;
+}
+.product h4 img {
+    padding-right: 5px;
+}
+.product-tea {
+    background-color: white;
+    margin: 0;
+    border: 1px solid #e8e8e8;
+}
+.product-label1 {
+    background-color: #e26a6a;
+    padding: 10px;
+}
+.product-label2 {
+    background-color: #f4b350;
+    padding: 10px;
+}
+.product-label3 {
+    background-color: #4ecdc4;
+    padding: 10px;
+}
+/*FOOTER STYLES*/
+footer {
+    background-image: url("../img/bg.jpg");
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.bottom-nav {
+    background-color: #879e0f;
+    padding: 20px;
+}
+.bottom-nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    list-style: none;
+}
+.bottom-nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+}
+.bottom-nav i {
+    display: block;
+    font-size: 2em;
+}
+.flex-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 auto;
+}
+.bottom-meniu {
+    text-align: center;
+}
+.bottom-meniu ul {
+    list-style: none;
+    padding: 0;
+}
+.bottom-meniu a {
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+}
